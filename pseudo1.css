@@ -1,0 +1,118 @@
+<style  type="text/css">
+
+span.c{
+display:block;
+height:100px;
+width:100px;
+padding-right:10px;
+border:1px solid blue;
+background-color:green;
+}
+
+t1:hover{
+width:300px;
+border:5px solid brown;
+background-color:powderblue;
+padding:25px;
+margin:25px;
+}
+
+
+span.k{
+width:300px;
+border:5px solid brown;
+background-color:powderblue;
+padding:25px;
+margin:25px;
+}
+
+selector:pseudo-class{
+property:value;
+}
+
+a.highlight:hover{
+color:#ff0000;
+}
+
+div.p{
+display:black;
+background-color:yellow;
+padding:20px;
+}
+div.p:hover{
+background-color:blue;
+}
+p::first-line {
+color:#ff0000;
+font-variant:small-caps;
+}
+
+p::first-letter {
+color:#ff0000;
+font-variant:small-caps;
+}
+
+h1:before {
+content:url(kar98.jpeg);
+}
+
+h1:after {
+content:url(kar98.jpeg);
+}
+
+::selection{
+color:red;
+background:yellow;
+}
+
+img {
+opacity:1.0;
+filter:alpa(opacity=100);
+}
+
+div{
+background-color: #4CAF50;
+padding:10px;
+}
+
+div.first{
+opacity:0.1;
+filter:alpha
+}
+
+div{
+background : rgb(76,175,80);
+padding:15px;
+}
+
+div.first{
+background : rgb(76,175,80,0.3);
+}
+
+
+
+
+
+
+
+div.background{
+background:url("car.jpeg") repeat;
+border:2px solid black;
+}
+ 
+div.transbox{
+opacity:0.6;
+background-color:#ffffff;
+border:1px black ;
+margin:30px;
+filter:alpha (opacity=60);
+}
+
+div.transbox p{
+color:#000000;
+font-weight:bold;
+margin:5%;
+}
+
+
+</style>
